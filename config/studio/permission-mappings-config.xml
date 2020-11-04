@@ -14,7 +14,6 @@
   ~ You should have received a copy of the GNU General Public License
   ~ along with this program.  If not, see <http://www.gnu.org/licenses/>.
   -->
-
 <!-- permission-mappings-config.xml
 
   This files contains the permissions mappings for the roles defined in
@@ -88,6 +87,7 @@
             <permission>search_cmis</permission>
             <permission>clone_content_cmis</permission>
             <permission>upload_content_cmis</permission>
+            <permission>get_children</permission>
          </allowed-permissions>
       </rule>
       <rule regex="/site/components|/site/components/.*">
@@ -100,6 +100,7 @@
             <permission>search_cmis</permission>
             <permission>clone_content_cmis</permission>
             <permission>upload_content_cmis</permission>
+            <permission>get_children</permission>
          </allowed-permissions>
       </rule>
       <rule regex="/static-assets|/static-assets/.*">
@@ -112,6 +113,7 @@
             <permission>search_cmis</permission>
             <permission>clone_content_cmis</permission>
             <permission>upload_content_cmis</permission>
+            <permission>get_children</permission>
          </allowed-permissions>
       </rule>
       <rule regex=".*">
@@ -137,6 +139,7 @@
             <permission>search_cmis</permission>
             <permission>clone_content_cmis</permission>
             <permission>upload_content_cmis</permission>
+            <permission>get_children</permission>
          </allowed-permissions>
       </rule>
       <rule regex="^/site/(?!website/index\.xml)(.*)">
@@ -160,6 +163,7 @@
             <permission>clone_content_cmis</permission>
             <permission>upload_content_cmis</permission>
             <permission>delete_content</permission>
+            <permission>get_children</permission>
          </allowed-permissions>
       </rule>
       <rule regex="~DASHBOARD~">
@@ -204,6 +208,7 @@
             <permission>commit_resolution</permission>
             <permission>cancel_failed_pull</permission>
             <permission>encryption_tool</permission>
+            <permission>get_children</permission>
          </allowed-permissions>
       </rule>
       <rule regex="^/(?!site/website/index\.xml)(.*)">
@@ -269,6 +274,7 @@
             <permission>commit_resolution</permission>
             <permission>cancel_failed_pull</permission>
             <permission>encryption_tool</permission>
+            <permission>get_children</permission>
          </allowed-permissions>
       </rule>
       <rule regex="^/(?!site/website/index\.xml)(.*)">
@@ -313,6 +319,7 @@
             <permission>Publish</permission>
             <permission>get_publishing_queue</permission>
             <permission>cancel_publish</permission>
+            <permission>get_children</permission>
          </allowed-permissions>
       </rule>
       <rule regex="~DASHBOARD~">
@@ -333,6 +340,7 @@
       <rule regex="/.*">
          <allowed-permissions>
             <permission>Read</permission>
+            <permission>get_children</permission>
          </allowed-permissions>
       </rule>
       <rule regex=".*">
