@@ -161,7 +161,7 @@ export class ContentService {
   }
 
   searchPosts(query: string, size: number = 1, from: number = 0): any {
-    const contentTypes = ['/page/post'];
+    const contentTypes = ['/component/post'];
 
     return search(
       createQuery('elasticsearch', {
