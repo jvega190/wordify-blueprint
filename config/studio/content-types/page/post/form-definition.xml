@@ -6,13 +6,12 @@
   <imageThumbnail>post.png</imageThumbnail>
   <quickCreate>true</quickCreate>
   <quickCreatePath>/site/website/articles/{year}/{month}</quickCreatePath>
-  <properties>
-    <property>
-      <name>display-template</name>
-      <label>Display Template</label>
-      <value>/templates/web/post.ftl</value>
-      <type>template</type>
-    </property>
+  <properties>		<property>
+    <name>display-template</name>
+    <label>Display Template</label>
+    <value>/templates/web/post.ftl</value>
+    <type>template</type>
+  </property>
     <property>
       <name>no-template-required</name>
       <label>No Template Required</label>
@@ -26,70 +25,69 @@
       <type>string</type>
     </property>
   </properties>
-  <sections>
-    <section>
-      <title>System Fields</title>
-      <description />
-      <defaultOpen>true</defaultOpen>
-      <fields>
-        <field>
-          <type>file-name</type>
-          <id>file-name</id>
-          <iceId />
-          <title>Page URL</title>
-          <description />
-          <defaultValue />
-          <help />
-          <properties>
-            <property>
-              <name>size</name>
-              <value>50</value>
-              <type>int</type>
-            </property>
-            <property>
-              <name>maxlength</name>
-              <value>50</value>
-              <type>int</type>
-            </property>
-            <property>
-              <name>readonly</name>
-              <value />
-              <type>boolean</type>
-            </property>
-          </properties>
-          <constraints>
-          </constraints>
-        </field>
-        <field>
-          <type>input</type>
-          <id>internal-name</id>
-          <iceId />
-          <title>Internal Name</title>
-          <description />
-          <defaultValue />
-          <help />
-          <properties>
-            <property>
-              <name>size</name>
-              <value>50</value>
-              <type>int</type>
-            </property>
-            <property>
-              <name>maxlength</name>
-              <value>50</value>
-              <type>int</type>
-            </property>
-          </properties>
-          <constraints>
-            <constraint>
-              <name>required</name>
-              <value><![CDATA[true]]></value>
-              <type>boolean</type>
-            </constraint>
-          </constraints>
-        </field>
-      </fields>
-    </section>
+  <sections>		<section>
+    <title>System Fields</title>
+    <description />
+    <defaultOpen>true</defaultOpen>
+    <fields>
+      <field>
+        <type>file-name</type>
+        <id>file-name</id>
+        <iceId />
+        <title>Page URL</title>
+        <description />
+        <defaultValue />
+        <help />
+        <properties>
+          <property>
+            <name>size</name>
+            <value>50</value>
+            <type>int</type>
+          </property>
+          <property>
+            <name>maxlength</name>
+            <value>50</value>
+            <type>int</type>
+          </property>
+          <property>
+            <name>readonly</name>
+            <value />
+            <type>boolean</type>
+          </property>
+        </properties>
+        <constraints>
+        </constraints>
+      </field>
+      <field>
+        <type>input</type>
+        <id>internal-name</id>
+        <iceId />
+        <title>Internal Name</title>
+        <description />
+        <defaultValue />
+        <help />
+        <properties>
+          <property>
+            <name>size</name>
+            <value>50</value>
+            <type>int</type>
+          </property>
+          <property>
+            <name>maxlength</name>
+            <value>50</value>
+            <type>int</type>
+          </property>
+        </properties>
+        <constraints>
+          <constraint>
+            <name>required</name>
+            <value><![CDATA[true]]></value>
+            <type>boolean</type>
+          </constraint>
+        </constraints>
+      </field>
+    </fields>
+  </section>
     <section>
       <title>SEO</title>
       <description />
@@ -282,16 +280,12 @@
           <properties>
             <property>
               <name>width</name>
-              <value>{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot;
-                }
-              </value>
+              <value>{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot;}</value>
               <type>range</type>
             </property>
             <property>
               <name>height</name>
-              <value>{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot;
-                }
-              </value>
+              <value>{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot;}</value>
               <type>range</type>
             </property>
             <property>
@@ -450,9 +444,7 @@
             </property>
             <property>
               <name>contentTypes</name>
-              <value>
-                ,/component/image,/component/responsive_columns,/component/rich_text,/component/slider
-              </value>
+              <value>,/component/image,/component/responsive_columns,/component/rich_text,/component/slider</value>
               <type>contentTypes</type>
             </property>
             <property>
@@ -530,20 +522,19 @@
       </fields>
     </section>
   </sections>
-  <datasources>
-    <datasource>
-      <type>img-desktop-upload</type>
-      <id>desktopImage</id>
-      <title>Desktop Image</title>
-      <interface>image</interface>
-      <properties>
-        <property>
-          <name>repoPath</name>
-          <value>/static-assets/images</value>
-          <type>undefined</type>
-        </property>
-      </properties>
-    </datasource>
+  <datasources>				<datasource>
+    <type>img-desktop-upload</type>
+    <id>desktopImage</id>
+    <title>Desktop Image</title>
+    <interface>image</interface>
+    <properties>
+      <property>
+        <name>repoPath</name>
+        <value>/static-assets/images</value>
+        <type>undefined</type>
+      </property>
+    </properties>
+  </datasource>
     <datasource>
       <type>img-repository-upload</type>
       <id>repoImage</id>
@@ -624,12 +615,12 @@
         </property>
         <property>
           <name>repoPath</name>
-          <value>/site/components/bio</value>
+          <value>/site/bio</value>
           <type>undefined</type>
         </property>
         <property>
           <name>browsePath</name>
-          <value>/site/components</value>
+          <value>/site/bio</value>
           <type>undefined</type>
         </property>
         <property>
