@@ -7,7 +7,7 @@ descriptorVersion: 2
 plugin:
   type: blueprint
   id: org.craftercms.blueprint.wordify
-  name: Wordify Blueprint
+  name: Wordify Blueprint - Angular
   tags:
     - blueprint
     - website
@@ -18,7 +18,7 @@ plugin:
   description: |
     Wordify template blueprint
   website:
-    name: Wordify Blueprint
+    name: Wordify Blueprint - Angular
     url: https://craftercms.org
   media:
     screenshots:
@@ -50,8 +50,8 @@ plugin:
     url: https://opensource.org/licenses/MIT
   crafterCmsVersions:
     - major: 3
-      minor: 1
-      patch: 6
+      minor: 2
+      patch: 0
   crafterCmsEditions:
     - community
     - enterprise
