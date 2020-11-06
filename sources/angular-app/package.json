@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "chmod +x build.sh; ./build.sh",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -21,6 +21,7 @@
     "@angular/router": "~9.1.11",
     "@craftercms/classes": "^1.2.3",
     "@craftercms/content": "^1.2.3",
+    "@craftercms/ice": "^1.2.3",
     "@craftercms/search": "^1.2.3",
     "js-cookie": "^2.2.1",
     "rxjs": "~6.5.4",

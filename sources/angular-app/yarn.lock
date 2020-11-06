@@ -1009,6 +1009,14 @@
     rxjs "^6.5.4"
     tslib "^1.10.0"
 
+"@craftercms/ice@^1.2.3":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@craftercms/ice/-/ice-1.2.3.tgz#de2a27371e88a6d4c962f11da6a21f1938f5cd29"
+  integrity sha512-27tWrUTRSp+ZhaN4GWWTh9QGVjiVK+uU82DVDwG/bMrDhsPJgTj1Mff/zUArD36sQF0QleR5gOBOBmd3Fx5Z+g==
+  dependencies:
+    "@craftercms/models" "1.2.3"
+    tslib "^1.10.0"
+
 "@craftercms/models@1.2.3":
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/@craftercms/models/-/models-1.2.3.tgz#9dc8efa5824a1a314b1cc788a2e7ad6cc5ecf736"
